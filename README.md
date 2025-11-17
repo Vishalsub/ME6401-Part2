@@ -4,15 +4,16 @@ A compact workspace of data, figures, and outputs for ME6401 (Part 2). This READ
 
 ## Contents
 - `Images/`: Reference figures (deformation sequences, load snapshots, CAD/analysis screenshots, schematic).
-- `output/`: Generated outputs (animations and study reports). New plots will be saved to `output/plots/`.
+- `output/`: outputs (animations and study reports). New plots will be saved to `output/`.
 - `Test_case/`: MATLAB `.mat` datasets (`T1.mat`, `T2.mat`, `T3.mat`, `T4.mat`, `T5-25.mat`).
 - `Initial_setup.mat`: Initial MATLAB setup/state for the study.
 - `ME6401_Report_vishal_1.pdf`: Project report.
-- `scripts/`: Utility scripts for visualization and reproduction.
+- `scripts/`: Utility scripts 
 
 ## Requirements
 - MATLAB R2021b or newer (earlier versions may work).
-- No special toolbox is assumed. If your datasets contain Simscape/struct objects, base MATLAB plotting is used where possible.
+- DAS 2D/3D software http://www.compliantanalysis.com/download/
+- No special toolbox is assumed. 
 
 ## Quick start
 1. Open MATLAB and set the project root as your current folder 
@@ -44,4 +45,4 @@ This workspace primarily contains result artifacts (figures, animations, PDFs) a
 
 
 - This repository currently does not include the original simulation code; it focuses on data and outputs.
-- Animations are under `output/` as `.mov`. You can export frames using MATLAB or your preferred video tool if needed.
+- Animations are under `output/` as `.mov`. You can export frames using MATLAB or your preferred video tool if needed.c
